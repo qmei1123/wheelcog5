@@ -11,7 +11,7 @@ function draw() {
 
      
     for (i = 30; i < width - 140; i+=65) {
-        for (j = height/2; j < height; j+=20) {
+        for (j = height/7; j < 4*height/7; j+=20) {
   //custom shape 
             beginShape();
             noFill();
@@ -29,7 +29,7 @@ function draw() {
     }
     
     for (i = -180; i < width; i+=65) {
-        for (j = height/8; j < height/2; j+=20) {
+        for (j = height/8; j < 3*height/7; j+=20) {
   //custom shape 
             beginShape();
             noFill();
